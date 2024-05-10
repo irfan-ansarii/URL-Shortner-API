@@ -61,3 +61,5 @@ process.on("unhandledRejection", () => {
     process.exit(1);
   });
 });
+
+export default app;
