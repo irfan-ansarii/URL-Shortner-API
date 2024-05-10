@@ -1,1 +1,0 @@
-ALTER TABLE "user" RENAME COLUMN "recovery_otp" TO "otp";

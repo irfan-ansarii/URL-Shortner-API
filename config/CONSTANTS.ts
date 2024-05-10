@@ -1,6 +1,6 @@
 import "dotenv/config";
 
-// export const DATABASE_URL = process.env.DATABASE_URL;
+export const DATABASE_URL = process.env.DATABASE_URL;
 
 export const POSTGRES_URL = process.env.POSTGRES_URL;
 
