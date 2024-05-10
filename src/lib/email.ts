@@ -13,7 +13,7 @@ const sentFrom = new Sender(
 );
 
 const getTemplate = async (template: string, data: {}) => {
-  const file = path.join(__dirname, "..", "templates", "template.ejs");
+  const file = path.join(process.cwd(), "templates", "template.ejs");
 
   const html = await ejs.renderFile(
     file,
