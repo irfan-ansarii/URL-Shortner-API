@@ -15,6 +15,7 @@
   "author": "Irfan Ansari",
   "license": "ISC",
   "dependencies": {
+    "@vercel/postgres": "^0.8.0",
     "cors": "^2.8.5",
     "device-detector-js": "^3.0.3",
     "dotenv": "^16.4.5",
