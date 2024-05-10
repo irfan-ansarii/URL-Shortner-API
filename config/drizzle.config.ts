@@ -9,5 +9,5 @@ export default {
     connectionString: DATABASE_URL!,
   },
   verbose: true,
-  strict: true,
+  strict: false,
 } satisfies Config;

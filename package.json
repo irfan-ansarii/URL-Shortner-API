@@ -8,7 +8,7 @@
     "start": "node dist/src/index",
     "build": "tsc",
     "db-generate": "drizzle-kit generate:pg --config=config/drizzle.config.ts",
-    "db-migrate": "drizzle-kit push:pg --config=config/drizzle.config.ts",
+    "db-migrate": "drizzle-kit push:pg  --config=config/drizzle.config.ts",
     "db-studio": "drizzle-kit studio --config=config/drizzle.config.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
